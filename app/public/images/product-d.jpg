@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="pingback" href="https://brarscribbles.com/xmlrpc.php">
+
+	<title>Page not found &#8211; Brar Scribbles</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="Brar Scribbles &raquo; Feed" href="https://brarscribbles.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Brar Scribbles &raquo; Comments Feed" href="https://brarscribbles.com/comments/feed/" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='ht_ctc_main_css-css' href='https://brarscribbles.com/wp-content/plugins/click-to-chat-for-whatsapp/new/inc/assets/css/main.css?ver=4.16' media='all' />
+<link rel='stylesheet' id='sbi_styles-css' href='https://brarscribbles.com/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.6.1' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link rel='stylesheet' id='wc-blocks-style-css' href='https://brarscribbles.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.6.0' media='all' />
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--cardo: Cardo;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-cardo-font-family{font-family: var(--wp--preset--font-family--cardo) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://brarscribbles.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.3' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='https://brarscribbles.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.3.6' media='all' />
+<style id="rs-plugin-settings-inline-css">
+#rs-demo-id {}
+/*# sourceURL=rs-plugin-settings-inline-css */
+</style>
+<link rel='stylesheet' id='woocommerce-general-css' href='https://brarscribbles.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=9.6.0' media='all' />
+<style id="woocommerce-inline-inline-css">
+.woocommerce form .form-row .required { visibility: visible; }
+/*# sourceURL=woocommerce-inline-inline-css */
+</style>
+<link rel='stylesheet' id='brands-styles-css' href='https://brarscribbles.com/wp-content/plugins/woocommerce/assets/css/brands.css?ver=9.6.0' media='all' />
+<link rel='stylesheet' id='martfury-fonts-css' href='https://fonts.googleapis.com/css?family=Work+Sans%3A300%2C400%2C500%2C600%2C700%7CLibre+Baskerville%3A400%2C700&#038;subset=latin%2Clatin-ext&#038;ver=20170801' media='all' />
+<link rel='stylesheet' id='linearicons-css' href='https://brarscribbles.com/wp-content/themes/martfury/css/linearicons.min.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='ionicons-css' href='https://brarscribbles.com/wp-content/themes/martfury/css/ionicons.min.css?ver=2.0.0' media='all' />
+<link rel='stylesheet' id='eleganticons-css' href='https://brarscribbles.com/wp-content/themes/martfury/css/eleganticons.min.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://brarscribbles.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://brarscribbles.com/wp-content/themes/martfury/css/bootstrap.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='martfury-css' href='https://brarscribbles.com/wp-content/themes/martfury/style.css?ver=20201224' media='all' />
+<style id="martfury-inline-css">
+.site-header .logo img  {width:100px; }.error404 .site-content { background-color:#efeef0; }	/* Color Scheme */
+
+	/* Color */
+
+	body {
+		--mf-primary-color: #0071df;
+		--mf-background-primary-color: #0071df;
+		--mf-border-primary-color: #0071df;
+	}
+
+	.widget_shopping_cart_content .woocommerce-mini-cart__buttons .checkout,
+	 .header-layout-4 .topbar:not(.header-bar),
+	 .header-layout-3 .topbar:not(.header-bar){
+		background-color: #0062d0;
+	}
+	
+	#site-header .mf-background-primary, #site-header .mini-item-counter{--mf-background-primary-color:#ff5b25}#site-header .main-menu{background-color:#ff5b25}#site-header .header-bar a, #site-header .recently-viewed .recently-title,#site-header:not(.minimized) .main-menu .products-cats-menu .cats-menu-title .text, #site-header:not(.minimized) .main-menu .products-cats-menu .cats-menu-title, #site-header .main-menu .primary-nav > ul > li > a, #site-header .main-menu .header-bar,#site-header .header-bar #lang_sel  > ul > li > a, #site-header .header-bar .lang_sel > ul > li > a, #site-header .header-bar #lang_sel > ul > li > a:after, #site-header .header-bar .lang_sel > ul > li > a:after, #site-header .header-bar .mf-currency-widget .current:after,#site-header .header-bar ul.menu > li.menu-item-has-children > a:after{color:#ffffff}#site-header .header-bar .mf-currency-widget ul li a, #site-header .header-bar #lang_sel ul ul li a {color: #666}#site-header .header-bar a:hover,#site-header .primary-nav > ul > li:hover > a, #site-header .header-bar #lang_sel  > ul > li > a:hover, #site-header .header-bar .lang_sel > ul > li > a:hover, #site-header .header-bar #lang_sel > ul > li > a:hover:after, #site-header .header-bar .lang_sel > ul > li > a:hover:after, #site-header .header-bar .mf-currency-widget .current:hover,#site-header .header-bar .mf-currency-widget .current:hover:after{color:#000000}#site-header .primary-nav > ul > li.current-menu-parent > a, #site-header .primary-nav > ul > li.current-menu-item > a, #site-header .primary-nav > ul > li.current-menu-ancestor > a{color:#000000}.site-footer .footer-layout {background-color:#19191e}.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6, .site-footer .widget .widget-title {color:#ffffff}.site-footer, .site-footer .footer-widgets .widget ul li a, .site-footer .footer-copyright,.site-footer .footer-links .widget_nav_menu ul li a, .site-footer .footer-payments .text {color:#ffffff}
+/*# sourceURL=martfury-inline-css */
+</style>
+<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p role="alert">Sorry, this product is unavailable. Please choose a different combination.</p>
+</script>
+<script id="jquery-core-js" src="https://brarscribbles.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://brarscribbles.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="tp-tools-js" src="https://brarscribbles.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.3.6"></script>
+<script id="revmin-js" src="https://brarscribbles.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.3.6"></script>
+<script data-wp-strategy="defer" defer id="jquery-blockui-js" src="https://brarscribbles.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.6.0"></script>
+<script id="wc-add-to-cart-js-extra">
+var wc_add_to_cart_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https://brarscribbles.com/cart/","is_cart":"","cart_redirect_after_add":"no"};
+//# sourceURL=wc-add-to-cart-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="wc-add-to-cart-js" src="https://brarscribbles.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=9.6.0"></script>
+<script data-wp-strategy="defer" defer id="js-cookie-js" src="https://brarscribbles.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.6.0"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%"};
+//# sourceURL=woocommerce-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="woocommerce-js" src="https://brarscribbles.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=9.6.0"></script>
+<script id="underscore-js" src="https://brarscribbles.com/wp-includes/js/underscore.min.js?ver=1.13.8"></script>
+<script id="wp-util-js-extra">
+var _wpUtilSettings = {"ajax":{"url":"/wp-admin/admin-ajax.php"}};
+//# sourceURL=wp-util-js-extra
+</script>
+<script id="wp-util-js" src="https://brarscribbles.com/wp-includes/js/wp-util.min.js?ver=7.0"></script>
+<script id="wc-add-to-cart-variation-js-extra">
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination.","i18n_reset_alert_text":"Your selection has been reset. Please select some product options before adding this product to your cart."};
+//# sourceURL=wc-add-to-cart-variation-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="wc-add-to-cart-variation-js" src="https://brarscribbles.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=9.6.0"></script>
+<script id="waypoints-js" src="https://brarscribbles.com/wp-content/themes/martfury/js/plugins/waypoints.min.js?ver=2.0.2"></script>
+<link rel="https://api.w.org/" href="https://brarscribbles.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://brarscribbles.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0" />
+<meta name="generator" content="WooCommerce 9.6.0" />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.27.2; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<meta name="generator" content="Powered by Slider Revolution 6.3.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<style class="wp-fonts-local">
+@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('https://brarscribbles.com/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('https://brarscribbles.com/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');}
+</style>
+<link rel="icon" href="https://brarscribbles.com/wp-content/uploads/2021/01/cropped-LOGO-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://brarscribbles.com/wp-content/uploads/2021/01/cropped-LOGO-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://brarscribbles.com/wp-content/uploads/2021/01/cropped-LOGO-180x180.png" />
+<meta name="msapplication-TileImage" content="https://brarscribbles.com/wp-content/uploads/2021/01/cropped-LOGO-270x270.png" />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+<style id="wp-custom-css">
+body
+{
+	user-select: none;
+}
+.site-header .header-main {
+    padding-top: 10px;
+	padding-bottom: 10px;
+.}
+.payments img.attachment-full.size-full {
+    width: 40px;
+}
+.backtotop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10000;
+    font-size: 36px;
+    text-shadow: none;
+    color: #ff5b25!important;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+.backtotop:hover{
+	color:#fff;
+}
+a#evowap_btn {
+    margin-left: 135px;
+    padding: 12px;
+}
+div#sbi_images {
+    padding: 1px!important;
+}
+@media (max-width:500px){
+	a#evowap_btn {
+    margin-left: 80px!important;
+    padding: 6px!important;
+    font-size: 16px!important;
+}
+}
+</style>
+<style id="kirki-inline-styles">/* vietnamese */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_c6Dpp_k.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_cqDpp_k.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_c6Dpp_k.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_cqDpp_k.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_c6Dpp_k.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_cqDpp_k.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* vietnamese */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_c6Dpp_k.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_cqDpp_k.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_c6Dpp_k.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_cqDpp_k.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_c6Dpp_k.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_cqDpp_k.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* vietnamese */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_c6Dpp_k.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_cqDpp_k.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_c6Dpp_k.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_cqDpp_k.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_c6Dpp_k.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_cqDpp_k.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://brarscribbles.com/wp-content/fonts/work-sans/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style>	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HR9G2EX72E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HR9G2EX72E');
+</script>
+
+</head>
+
+<body data-rsssl=1 class="error404 wp-embed-responsive wp-theme-martfury theme-martfury woocommerce-no-js header-layout-2 list mf-preloader mf-light-skin elementor-columns-no-space elementor-default elementor-kit-6 product_loop-no-hover">
+        <div id="martfury-preloader" class="martfury-preloader">
+        </div>
+		
+<div id="page" class="hfeed site">
+			<div id="topbar" class="topbar ">
+    <div class="container">
+        <div class="row topbar-row">
+			                <div class="topbar-left topbar-sidebar col-xs-12 col-sm-12 col-md-5 hidden-xs hidden-sm">
+					<div id="custom_html-1" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><i class="fa fa-phone"></i>  <strong>+91-84279-76607 </strong>  
+<i class="fa fa-envelope"></i>
+<strong><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="accedecddedfcfdec5cecec0c9dfeccbc1cdc5c082cfc3c1">[email&#160;protected]</a></strong></div></div><div id="custom_html-113" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+</script></div></div>                </div>
+
+
+                <div class="topbar-right topbar-sidebar col-xs-12 col-sm-12 col-md-7 hidden-xs hidden-sm">
+					<div id="custom_html-114" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script>
+
+</script></div></div><div id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div class="mf-currency-widget">				
+	<div class="widget-currency">
+			<span class="current">US Dollar</span><ul><li class="actived"><a href="#" class="woocs_flag_view_item woocs_flag_view_item_current" data-currency="USD">US Dollar</a></li>
+	<li><a href="#" class="woocs_flag_view_item" data-currency="EUR">European Euro</a></li></ul>		</div>
+		</div></div></div><div id="custom_html-2" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div class="lang_sel">
+					<ul>
+						<li>
+							<a href="#" class="lang_sel_sel icl-en">
+								English
+							</a>
+						 	<ul>
+								<li class="icl-fr">
+									<a href="#">
+										French
+									</a>
+								</li>
+								<li class="icl-de">
+									<a href="#">					
+										German
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div></div></div><div id="custom_html-5" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"> <a href="#">Store Location</a></div></div><div id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"> <a href="#">Track Your Order</a></div></div>                </div>
+			
+			                <div class="topbar-mobile topbar-sidebar col-xs-12 col-sm-12 hidden-lg hidden-md">
+					<div id="custom_html-115" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script>
+
+</script></div></div>                </div>
+				
+        </div>
+    </div>
+</div>        <header id="site-header" class="site-header header-department-top">
+			
+<div class="header-main-wapper">
+    <div class="header-main">
+        <div class="container">
+            <div class="row header-row">
+                <div class="header-logo col-lg-3 col-md-6 col-sm-6 col-xs-6 ">
+                    <div class="d-logo">
+						    <div class="logo">
+        <a href="https://brarscribbles.com/">
+            <img class="site-logo" alt="Brar Scribbles"
+                 src="https://brarscribbles.com/wp-content/uploads/2021/01/LOGO.png"/>
+			        </a>
+    </div>
+<p class="site-title"><a href="https://brarscribbles.com/" rel="home">Brar Scribbles</a></p>    <h2 class="site-description">Brar Scribbles</h2>
+
+                    </div>
+
+                    <div class="d-department hidden-xs hidden-sm ">
+						        <div class="products-cats-menu mf-closed">
+            <h2 class="cats-menu-title"><i class="icon-menu"><span class="s-space">&nbsp;</span></i><span class="text">Shop By Department</span></h2>
+
+            <div class="toggle-product-cats nav" >
+				<ul id="menu-shop-by-department" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4085"><a href="https://brarscribbles.com/product-category/chemistry-study-material/">Chemistry Study Material</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4087"><a href="https://brarscribbles.com/product-category/physics-study-material/">Physics Study Material</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4086"><a href="https://brarscribbles.com/product-category/science-inspired-mugs/">Science Inspired Mugs</a></li>
+</ul>            </div>
+        </div>
+		                    </div>
+
+                </div>
+                <div class="header-extras col-lg-9 col-md-6 col-sm-6 col-xs-6">
+					<div class="product-extra-search">
+                <form class="products-search" method="get" action="https://brarscribbles.com/">
+                <div class="psearch-content">
+                    <div class="product-cat"><div class="product-cat-label ">All</div> <select  name='product_cat' id='header-search-product-cat' class='product-cat-dd'>
+	<option value='0' selected='selected'>All</option>
+	<option class="level-0" value="chemistry-study-material">Chemistry Study Material</option>
+	<option class="level-0" value="physics-study-material">Physics Study Material</option>
+	<option class="level-0" value="sale">Sale</option>
+	<option class="level-0" value="science-inspired-mugs">Science Inspired Mugs</option>
+</select>
+</div>
+                    <div class="search-wrapper">
+                        <input type="text" name="s"  class="search-field" autocomplete="off" placeholder="I&#039;m shopping for...">
+                        <input type="hidden" name="post_type" value="product">
+                        <div class="search-results woocommerce"></div>
+                    </div>
+                    <button type="submit" class="search-submit mf-background-primary">Search</button>
+                </div>
+            </form> 
+            </div>                    <ul class="extras-menu">
+						<li class="extra-menu-item menu-item-cart mini-cart woocommerce">
+				<a class="cart-contents" id="icon-cart-contents" href="https://brarscribbles.com/cart/">
+					<i class="icon-bag2 extra-icon"></i>
+					<span class="mini-item-counter mf-background-primary">
+						0
+					</span>
+				</a>
+				<div class="mini-cart-content">
+				<span class="tl-arrow-menu"></span>
+					<div class="widget_shopping_cart_content">
+
+    <p class="woocommerce-mini-cart__empty-message">No products in the cart.</p>
+
+
+</div>
+				</div>
+			</li><li class="extra-menu-item menu-item-account">
+					<a href="https://brarscribbles.com/my-account/" id="menu-extra-login"><i class="extra-icon icon-user"></i><span class="login-text">Log in</span></a>
+					
+				</li>                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-menu hidden-xs hidden-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="col-header-menu">
+					        <div class="primary-nav nav">
+			<ul id="menu-my-menu" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4055"><a href="https://brarscribbles.com/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4056"><a href="https://brarscribbles.com/about-us/">About Us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4058 dropdown hasmenu"><a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop  <i class="fa fa-caret-down" style="margin-left:5px;"></i></a>
+<ul class="dropdown-submenu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-4658 dropdown hasmenu"><a href="https://brarscribbles.com/product-category/study-material/" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Study Material</a>
+	<ul class="dropdown-submenu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4084"><a href="https://brarscribbles.com/product-category/physics-study-material/">Physics Study Material</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4082"><a href="https://brarscribbles.com/product-category/chemistry-study-material/">Chemistry Study Material</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4659"><a href="https://brarscribbles.com/product-category/biology-study-material/">Biology Study Material</a></li>
+
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4715"><a href="https://brarscribbles.com/product-category/science-toys-and-activity-kits/">Science Toys &amp; Activity Kits</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-4656 dropdown hasmenu"><a href="https://brarscribbles.com/product-category/creative-coffee-mugs/" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Creative Coffee Mugs</a>
+	<ul class="dropdown-submenu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4083"><a href="https://brarscribbles.com/product-category/science-inspired-mugs/">Science Inspired Mugs</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4657"><a href="https://brarscribbles.com/product-category/inspirational-coffee-mugs/">Inspirational Coffee Mugs</a></li>
+
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4716"><a href="https://brarscribbles.com/product-category/stickers-magnets-pins/">Stickers | Magnets | Pins</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4711"><a href="https://brarscribbles.com/product-category/keychains-and-car-hangings/">Keychains | Car Hangings</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4713"><a href="https://brarscribbles.com/product-category/plushies-and-pillow-covers/">Plushies | Pillow Covers</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4709"><a href="https://brarscribbles.com/product-category/apparel/">Apparel</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-4710 dropdown hasmenu"><a href="https://brarscribbles.com/product-category/art/" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Art</a>
+	<ul class="dropdown-submenu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4714"><a href="https://brarscribbles.com/product-category/posters-prints/">Posters | Prints</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4708"><a href="https://brarscribbles.com/product-category/acrylic-blocks/">Acrylic Blocks</a></li>
+
+	</ul>
+</li>
+
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4328"><a href="https://brarscribbles.com/product-category/sale/">Sale</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="https://brarscribbles.com/gallery/">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4396"><a href="https://brarscribbles.com/social-media/">Social Media</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4360"><a href="https://brarscribbles.com/blog-2/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4057"><a href="https://brarscribbles.com/contact/">Contact</a></li>
+</ul>        </div>
+							                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mobile-menu hidden-lg hidden-md">
+    <div class="container">
+        <div class="mobile-menu-row">
+            <a class="mf-toggle-menu" id="mf-toggle-menu" href="#">
+                <i class="icon-menu"></i>
+            </a>
+			<div class="product-extra-search">
+                <form class="products-search" method="get" action="https://brarscribbles.com/">
+                <div class="psearch-content">
+                    <div class="product-cat"><div class="product-cat-label no-cats">All</div> </div>
+                    <div class="search-wrapper">
+                        <input type="text" name="s"  class="search-field" autocomplete="off" placeholder="I&#039;m shopping for...">
+                        <input type="hidden" name="post_type" value="product">
+                        <div class="search-results woocommerce"></div>
+                    </div>
+                    <button type="submit" class="search-submit mf-background-primary">Search</button>
+                </div>
+            </form> 
+            </div>        </div>
+    </div>
+</div>        </header>
+		
+    <div id="content" class="site-content">
+		<div class="container"><div class="row">
+<div id="primary" class="content-area">
+	<main id="main" class="site-main">
+
+		<section class="error-404 not-found">
+			<div class="page-content col-md-12 col-xs-12 col-sm-12">
+				<img src="https://brarscribbles.com/wp-content/themes/martfury/images/bg-404.jpg" alt="ohh! page not found">
+				<h3 class="page-title">ohh! page not found</h3>
+
+				<p>
+					It seems we can&#039;t find what you&#039;re looking for. Perhaps searching can help or go back to 					<a href="https://brarscribbles.com/">Homepage</a>
+				</p>
+
+				<form role="search" method="get" class="search-form" action="https://brarscribbles.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>
+			</div>
+			<!-- .page-content -->
+		</section>
+		<!-- .error-404 -->
+
+	</main>
+	<!-- #main -->
+</div><!-- #primary -->
+
+</div></div></div><!-- #content -->
+    <footer id="colophon" class="site-footer">
+		<nav class="footer-layout footer-layout-1 footer-custom">
+		<div class="container">
+		<div class="footer-content">
+			        <div class="footer-widgets columns-4" id="footer-widgets">
+			                    <div class="footer-sidebar footer-1">
+						<div id="custom_html-122" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script>
+
+</script></div></div><div id="text-3" class="widget widget_text">			<div class="textwidget"><p><img decoding="async" class="alignnone wp-image-4062" src="https://brarscribbles.com/wp-content/uploads/2021/01/LOGO-360x360.png" alt="icon" width="120" height="120" srcset="https://brarscribbles.com/wp-content/uploads/2021/01/LOGO-360x360.png 360w, https://brarscribbles.com/wp-content/uploads/2021/01/LOGO-100x100.png 100w, https://brarscribbles.com/wp-content/uploads/2021/01/LOGO-300x300.png 300w, https://brarscribbles.com/wp-content/uploads/2021/01/LOGO-370x370.png 370w, https://brarscribbles.com/wp-content/uploads/2021/01/LOGO.png 540w" sizes="(max-width: 120px) 100vw, 120px" /></p>
+<p style="text-align: justify;">I’m the author and illustrator of Brar Scribbles. I love communicating science and always try to bring new, creative, engaging, fun, and interactive tools to help students for better subject understanding.</p>
+<p><i class="fa fa-phone"></i> +91-84279-76607</p>
+<p style="margin-top:-10px;"><i class="fa fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="62001003101101100b00000e071122050f030b0e4c010d0f">[email&#160;protected]</a></p>
+</div>
+		</div><div id="social-links-widget-3" class="widget social-links-widget social-links"><div class="social-links-list"><a href="https://www.facebook.com/brar.scribbles" class="share-facebook tooltip-enable share-social" rel="nofollow" title="Facebook" data-toggle="tooltip" data-placement="top" target="_blank"><i class="social social_facebook"></i></a><a href="https://twitter.com/BrarScribbles?s=08" class="share-twitter tooltip-enable share-social" rel="nofollow" title="Twitter" data-toggle="tooltip" data-placement="top" target="_blank"><i class="social social_twitter"></i></a><a href="https://www.youtube.com/channel/UCP7baQZYF2uL-s5-c8arukQ?view_as=subscriber" class="share-youtube tooltip-enable share-social" rel="nofollow" title="Youtube" data-toggle="tooltip" data-placement="top" target="_blank"><i class="social social_youtube"></i></a><a href="https://in.pinterest.com/brarscribbles/_created/" class="share-pinterest tooltip-enable share-social" rel="nofollow" title="Pinterest" data-toggle="tooltip" data-placement="top" target="_blank"><i class="social social_pinterest"></i></a><a href="https://www.instagram.com/brar_scribbles/" class="share-instagram tooltip-enable share-social" rel="nofollow" title="Instagram" data-toggle="tooltip" data-placement="top" target="_blank"><i class="social social_instagram"></i></a></div></div>                    </div>
+				                    <div class="footer-sidebar footer-2">
+						<div id="custom_html-123" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+</script></div></div><div id="text-4" class="widget widget_text"><h4 class="widget-title">Quick Links</h4>			<div class="textwidget"><p><a href="https://brarscribbles.com/faqs/" style="color:#fff;">FAQs</a></p>
+<p><a href="https://brarscribbles.com/privacy-policy/" style="color:#fff;">Privacy</a></p>
+<p><a href="https://brarscribbles.com/disclaimer-policy/" style="color:#fff;">Disclaimer</a></p>
+<p><a href="https://brarscribbles.com/terms-and-conditions/" style="color:#fff;">Terms &amp; Conditions</a></p>
+<p><a href="https://brarscribbles.com/Shipping-Delivery-Policy/" style="color:#fff;">Shipping &amp; Delivery</a></p>
+<p><a href="https://brarscribbles.com/Cancellation-Refund-Policy/" style="color:#fff;">Cancellation &amp; Refund</a></p>
+</div>
+		</div>                    </div>
+				                    <div class="footer-sidebar footer-3">
+						<div id="custom_html-124" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script>
+
+</script></div></div><div id="nav_menu-3" class="widget widget_nav_menu"><h4 class="widget-title">BUSSINESS</h4><div class="menu-footer-widget-2-container"><ul id="menu-footer-widget-2" class="menu"><li id="menu-item-465" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-465"><a href="https://brarscribbles.com/about-us/">About Us</a></li>
+<li id="menu-item-468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468"><a href="https://brarscribbles.com/contact/">Contact</a></li>
+</ul></div></div>                    </div>
+				                    <div class="footer-sidebar footer-4">
+						<div id="custom_html-125" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script>
+
+</script></div></div><div id="text-6" class="widget widget_text"><h4 class="widget-title">Facebook</h4>			<div class="textwidget"><p><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbrar.scribbles&#038;tabs=timeline&#038;width=250&#038;height=250&#038;small_header=false&#038;adapt_container_width=true&#038;hide_cover=false&#038;show_facepile=true&#038;appId" height="250px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></p>
+</div>
+		</div>                    </div>
+				        </div>
+		            <div class="footer-links" id="footer-links">
+				<div id="custom_html-121" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script>
+
+</script></div></div>            </div>
+				</div>
+		<div class="footer-bottom">
+			<div class="row footer-row">
+				<div class="col-footer-copyright col-lg-6 col-md-12 col-sm-12 col-xs-12">
+					<div class="footer-copyright">© 2020 Brar Scribbles. All Rights Reserved Designed by <a href="https://pacewalk.com" target="_blank">PACEWALK</a></div>				</div>
+				<div class="col-footer-payments col-lg-6 col-md-12 col-sm-12 col-xs-12">
+					<div class="footer-payments"><div class="text">We Using Safe Payment For</div> <ul class="payments"> </ul></div>				</div>
+			</div>
+		</div>
+	</div>
+</nav>    </footer><!-- #colophon -->
+	</div><!-- #page -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/martfury/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://brarscribbles.com/wp-admin/admin-ajax.php";
+</script>
+            <a id="scroll-top" class="backtotop" href="#page-top">
+                <i class="arrow_carrot_up_alt"></i>
+            </a>
+				        <div class="primary-mobile-nav mf-els-item" id="primary-mobile-nav">
+            <div class="mobile-nav-content">
+                <div class="mobile-nav-overlay"></div>
+                <div class="mobile-nav-header">
+					                    <h2>Main Menu</h2>
+                    <a class="close-mobile-nav"><i class="icon-cross"></i></a>
+                </div>
+
+				<ul id="menu-my-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4055"><a href="https://brarscribbles.com/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4056"><a href="https://brarscribbles.com/about-us/">About Us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4058"><a href="#">Shop  <i class="fa fa-caret-down" style="margin-left:5px;"></i></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-4658"><a href="https://brarscribbles.com/product-category/study-material/">Study Material</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4084"><a href="https://brarscribbles.com/product-category/physics-study-material/">Physics Study Material</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4082"><a href="https://brarscribbles.com/product-category/chemistry-study-material/">Chemistry Study Material</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4659"><a href="https://brarscribbles.com/product-category/biology-study-material/">Biology Study Material</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4715"><a href="https://brarscribbles.com/product-category/science-toys-and-activity-kits/">Science Toys &amp; Activity Kits</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-4656"><a href="https://brarscribbles.com/product-category/creative-coffee-mugs/">Creative Coffee Mugs</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4083"><a href="https://brarscribbles.com/product-category/science-inspired-mugs/">Science Inspired Mugs</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4657"><a href="https://brarscribbles.com/product-category/inspirational-coffee-mugs/">Inspirational Coffee Mugs</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4716"><a href="https://brarscribbles.com/product-category/stickers-magnets-pins/">Stickers | Magnets | Pins</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4711"><a href="https://brarscribbles.com/product-category/keychains-and-car-hangings/">Keychains | Car Hangings</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4713"><a href="https://brarscribbles.com/product-category/plushies-and-pillow-covers/">Plushies | Pillow Covers</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4709"><a href="https://brarscribbles.com/product-category/apparel/">Apparel</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-4710"><a href="https://brarscribbles.com/product-category/art/">Art</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4714"><a href="https://brarscribbles.com/product-category/posters-prints/">Posters | Prints</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4708"><a href="https://brarscribbles.com/product-category/acrylic-blocks/">Acrylic Blocks</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4328"><a href="https://brarscribbles.com/product-category/sale/">Sale</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="https://brarscribbles.com/gallery/">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4396"><a href="https://brarscribbles.com/social-media/">Social Media</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4360"><a href="https://brarscribbles.com/blog-2/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4057"><a href="https://brarscribbles.com/contact/">Contact</a></li>
+</ul>
+            </div>
+        </div>
+		        <div id="mf-off-canvas-layer" class="martfury-off-canvas-layer"></div>
+		<!-- Click to Chat - https://holithemes.com/plugins/click-to-chat/  v4.16 -->  
+            <div class="ht-ctc ht-ctc-chat ctc-analytics ctc_wp_desktop style-7   ctc_side_positions " id="ht-ctc-chat"  
+                style="display: none;  position: fixed; bottom: 15px; left: 15px;"   >
+                                <div class="ht_ctc_style ht_ctc_chat_style">
+                <style id="ht-ctc-s7">
+.ht-ctc .ctc_s_7:hover .ctc_s_7_icon_padding, .ht-ctc .ctc_s_7:hover .ctc_cta_stick{background-color:#25d366 !important;}.ht-ctc .ctc_s_7:hover svg g path{fill:#f4f4f4 !important;}</style>
+
+<div  class="ctc_s_7 ctc-analytics ctc_nb" style="display:flex;justify-content:center;align-items:center; " data-nb_top="-7.8px" data-nb_right="-7.8px">
+    <p class="ctc_s_7_cta ctc_cta ctc_cta_stick ctc-analytics ht-ctc-cta  ht-ctc-cta-hover  ctc_m_cta_order_0 " style="padding: 0px 16px;  color: #ffffff; background-color: #25d366; border-radius:10px; margin:0 10px;  display: none; order: 1; ">WhatsApp us</p>
+    <div class="ctc_s_7_icon_padding ctc-analytics " style="font-size: 20px; color: #ffffff; padding: 12px; background-color: #25D366; border-radius: 50%;">
+        <svg style="pointer-events:none; display:block; height:20px; width:20px;" height="20px" version="1.1" viewBox="0 0 509 512" width="20px">
+        <g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
+            <path style="fill: #ffffff;" d="M259.253137,0.00180389396 C121.502859,0.00180389396 9.83730687,111.662896 9.83730687,249.413175 C9.83730687,296.530232 22.9142299,340.597122 45.6254897,378.191325 L0.613226597,512.001804 L138.700183,467.787757 C174.430395,487.549184 215.522926,498.811168 259.253137,498.811168 C396.994498,498.811168 508.660049,387.154535 508.660049,249.415405 C508.662279,111.662896 396.996727,0.00180389396 259.253137,0.00180389396 L259.253137,0.00180389396 Z M259.253137,459.089875 C216.65782,459.089875 176.998957,446.313956 143.886359,424.41206 L63.3044195,450.21808 L89.4939401,372.345171 C64.3924908,337.776609 49.5608297,295.299463 49.5608297,249.406486 C49.5608297,133.783298 143.627719,39.7186378 259.253137,39.7186378 C374.871867,39.7186378 468.940986,133.783298 468.940986,249.406486 C468.940986,365.025215 374.874096,459.089875 259.253137,459.089875 Z M200.755924,146.247066 C196.715791,136.510165 193.62103,136.180176 187.380228,135.883632 C185.239759,135.781068 182.918689,135.682963 180.379113,135.682963 C172.338979,135.682963 164.002301,138.050856 158.97889,143.19021 C152.865178,149.44439 137.578667,164.09322 137.578667,194.171258 C137.578667,224.253755 159.487251,253.321759 162.539648,257.402027 C165.600963,261.477835 205.268745,324.111057 266.985579,349.682963 C315.157262,369.636141 329.460495,367.859106 340.450462,365.455539 C356.441543,361.9639 376.521811,350.186865 381.616571,335.917077 C386.711331,321.63837 386.711331,309.399797 385.184018,306.857991 C383.654475,304.305037 379.578667,302.782183 373.464955,299.716408 C367.351242,296.659552 337.288812,281.870254 331.68569,279.83458 C326.080339,277.796676 320.898622,278.418749 316.5887,284.378615 C310.639982,292.612729 304.918689,301.074268 300.180674,306.09099 C296.46161,310.02856 290.477218,310.577055 285.331175,308.389764 C278.564174,305.506821 259.516237,298.869139 236.160607,278.048627 C217.988923,261.847958 205.716906,241.83458 202.149458,235.711949 C198.582011,229.598236 201.835077,225.948292 204.584241,222.621648 C207.719135,218.824546 210.610997,216.097679 213.667853,212.532462 C216.724709,208.960555 218.432625,207.05866 220.470529,202.973933 C222.508433,198.898125 221.137195,194.690767 219.607652,191.629452 C218.07588,188.568136 205.835077,158.494558 200.755924,146.247066 Z" 
+            fill="#ffffff" id="htwaicon-chat"/>
+        </g>
+        </svg>    </div>
+</div>                </div>
+            </div>
+                        <span class="ht_ctc_chat_data" 
+                data-no_number=""
+                data-settings="{&quot;number&quot;:&quot;918427976607&quot;,&quot;pre_filled&quot;:&quot;&quot;,&quot;dis_m&quot;:&quot;show&quot;,&quot;dis_d&quot;:&quot;show&quot;,&quot;css&quot;:&quot;display: none; cursor: pointer; z-index: 99999999;&quot;,&quot;pos_d&quot;:&quot;position: fixed; bottom: 15px; left: 15px;&quot;,&quot;pos_m&quot;:&quot;position: fixed; bottom: 150px; right: 10px;&quot;,&quot;schedule&quot;:&quot;no&quot;,&quot;se&quot;:150,&quot;ani&quot;:&quot;no-animations&quot;,&quot;url_structure_d&quot;:&quot;web&quot;,&quot;url_target_d&quot;:&quot;_blank&quot;,&quot;ga&quot;:&quot;yes&quot;,&quot;fb&quot;:&quot;yes&quot;,&quot;g_init&quot;:&quot;default&quot;,&quot;g_an_event_name&quot;:&quot;chat: {number}&quot;,&quot;pixel_event_name&quot;:&quot;Click to Chat by HoliThemes&quot;}" 
+            ></span>
+            			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<!-- 6cc6054647843aa07421a54cbf3d5897 --><!-- 8f1c6c02ae9423ccaafa07284194cfdb -->	<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script id="ht_ctc_app_js-js-extra">
+var ht_ctc_chat_var = {"number":"918427976607","pre_filled":"","dis_m":"show","dis_d":"show","css":"display: none; cursor: pointer; z-index: 99999999;","pos_d":"position: fixed; bottom: 15px; left: 15px;","pos_m":"position: fixed; bottom: 150px; right: 10px;","schedule":"no","se":"150","ani":"no-animations","url_structure_d":"web","url_target_d":"_blank","ga":"yes","fb":"yes","g_init":"default","g_an_event_name":"chat: {number}","pixel_event_name":"Click to Chat by HoliThemes"};
+var ht_ctc_variables = {"g_an_event_name":"chat: {number}","pixel_event_type":"trackCustom","pixel_event_name":"Click to Chat by HoliThemes","g_an_params":["g_an_param_1","g_an_param_2","g_an_param_3"],"g_an_param_1":{"key":"number","value":"{number}"},"g_an_param_2":{"key":"title","value":"{title}"},"g_an_param_3":{"key":"url","value":"{url}"},"pixel_params":["pixel_param_1","pixel_param_2","pixel_param_3","pixel_param_4"],"pixel_param_1":{"key":"Category","value":"Click to Chat for WhatsApp"},"pixel_param_2":{"key":"ID","value":"{number}"},"pixel_param_3":{"key":"Title","value":"{title}"},"pixel_param_4":{"key":"URL","value":"{url}"}};
+//# sourceURL=ht_ctc_app_js-js-extra
+</script>
+<script id="ht_ctc_app_js-js" src="https://brarscribbles.com/wp-content/plugins/click-to-chat-for-whatsapp/new/inc/assets/js/app.js?ver=4.16"></script>
+<script id="wp-hooks-js" src="https://brarscribbles.com/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://brarscribbles.com/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="swv-js" src="https://brarscribbles.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.3"></script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/brarscribbles.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script id="contact-form-7-js" src="https://brarscribbles.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.3"></script>
+<script id="jquery-ui-core-js" src="https://brarscribbles.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"></script>
+<script id="jquery-ui-tooltip-js" src="https://brarscribbles.com/wp-includes/js/jquery/ui/tooltip.min.js?ver=1.13.3"></script>
+<script id="imagesloaded-js" src="https://brarscribbles.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0"></script>
+<script id="lazyload-js" src="https://brarscribbles.com/wp-content/themes/martfury/js/plugins/jquery.lazyload.min.js?ver=1.9.7"></script>
+<script id="fitvids-js" src="https://brarscribbles.com/wp-content/themes/martfury/js/plugins/jquery.fitvids.js?ver=1.1.0"></script>
+<script id="isinviewport-js" src="https://brarscribbles.com/wp-content/themes/martfury/js/plugins/isInViewport.min.js?ver=1.0.0"></script>
+<script id="mf-countdown-js" src="https://brarscribbles.com/wp-content/themes/martfury/js/plugins/jquery.coundown.js?ver=1.0.0"></script>
+<script id="counterup-js" src="https://brarscribbles.com/wp-content/themes/martfury/js/plugins/jquery.counterup.min.js?ver=1.0.0"></script>
+<script id="slimscroll-js" src="https://brarscribbles.com/wp-content/themes/martfury/js/plugins/jquery.slimscroll.js?ver=1.3.8"></script>
+<script id="martfury-tabs-js" src="https://brarscribbles.com/wp-content/themes/martfury/js/plugins/jquery.tabs.js?ver=1.0.0"></script>
+<script id="nprogress-js" src="https://brarscribbles.com/wp-content/themes/martfury/js/plugins/nprogress.js?ver=1.0.0"></script>
+<script id="slick-js" src="https://brarscribbles.com/wp-content/themes/martfury/js/plugins/slick.min.js?ver=1.6.0"></script>
+<script id="notify-js" src="https://brarscribbles.com/wp-content/themes/martfury/js/plugins/notify.min.js?ver=1.0.0"></script>
+<script id="martfury-js-extra">
+var martfuryData = {"direction":"false","ajax_url":"https://brarscribbles.com/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","nonce":"ad79c9f254","days":"days","hours":"hours","minutes":"minutes","seconds":"seconds","add_to_cart_ajax":"1","search_content_type":"product","nl_days":"1","nl_seconds":"0","ajax_search":"1","quantity_ajax":"0","product_gallery":"1","added_to_cart_notice":{"added_to_cart_text":"has been added to your cart.","added_to_cart_texts":"have been added to your cart.","cart_view_text":"View Cart","cart_view_link":"https://brarscribbles.com/cart/","cart_notice_auto_hide":3000}};
+//# sourceURL=martfury-js-extra
+</script>
+<script id="martfury-js" src="https://brarscribbles.com/wp-content/themes/martfury/js/scripts.js?ver=20201224"></script>
+<script id="sourcebuster-js-js" src="https://brarscribbles.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.6.0"></script>
+<script id="wc-order-attribution-js-extra">
+var wc_order_attribution = {"params":{"lifetime":1.0000000000000000818030539140313095458623138256371021270751953125e-5,"session":30,"base64":false,"ajaxurl":"https://brarscribbles.com/wp-admin/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+//# sourceURL=wc-order-attribution-js-extra
+</script>
+<script id="wc-order-attribution-js" src="https://brarscribbles.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.6.0"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://brarscribbles.com/wp-includes/js/wp-emoji-release.min.js?ver=7.0"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://brarscribbles.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<!-- start Simple Custom CSS and JS -->
+<!-- 25815942bb1bddf02ce03e04a0eb0432 --><!-- end Simple Custom CSS and JS -->
+<!-- start Simple Custom CSS and JS -->
+<!-- 03192551dd557d26ffbe9d3a8aae50db --><!-- end Simple Custom CSS and JS -->
+
+
+</body>
+</html>
+
+
+<!-- Page cached by LiteSpeed Cache 6.5.4 on 2026-06-02 16:22:39 -->
