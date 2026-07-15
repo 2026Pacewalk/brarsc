@@ -2,10 +2,11 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  CreditCard, Truck, MapPin, CheckCircle2, ShoppingCart,
+  Truck, MapPin, CheckCircle2, ShoppingCart,
   X, ChevronRight, Lock
 } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
+import WhatsAppIcon from '@/components/WhatsAppIcon';
 
 const indianStates = [
   'Punjab', 'Delhi', 'Maharashtra', 'Karnataka', 'Tamil Nadu', 'Telangana',
@@ -14,14 +15,17 @@ const indianStates = [
   'Chhattisgarh', 'Uttarakhand', 'Goa', 'Andhra Pradesh', 'Jammu & Kashmir',
 ];
 
+const WHATSAPP_NUMBER = '918427976607';
+
 export default function Checkout() {
   const { items, totalPrice, updateQuantity, removeFromCart, clearCart } = useCart();
-  const [step, setStep] = useState<'info' | 'payment' | 'success'>('info');
+  const [step, setStep] = useState<'info' | 'confirm' | 'sent'>('info');
   const [formData, setFormData] = useState({
     fullName: '', email: '', phone: '', address: '', city: '', state: '', pincode: '',
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const [paymentMethod, setPaymentMethod] = useState('upi');
+  // Kept so the sent screen can reopen the same link after the cart is cleared.
+  const [orderUrl, setOrderUrl] = useState('');
 
   const shipping = totalPrice >= 499 ? 0 : 49;
   const total = totalPrice + shipping;
@@ -42,12 +46,34 @@ export default function Checkout() {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handlePlaceOrder = () => {
+  /* Hand the order to WhatsApp — the customer sends it from their own account,
+     so there is no server involved and nothing is charged here. */
+  const handleSendOrder = () => {
+    const lines = items.map(
+      (i, n) => `${n + 1}. ${i.product.name} x${i.quantity} — ₹${i.product.price * i.quantity}`
+    ).join('\n');
+
+    const text =
+      `*New Order from Brar Scribbles Website*\n\n` +
+      `*Items*\n${lines}\n\n` +
+      `Subtotal: ₹${totalPrice}\n` +
+      `Shipping: ${shipping === 0 ? 'FREE' : `₹${shipping}`}\n` +
+      `*Total: ₹${total}*\n\n` +
+      `*Deliver to*\n` +
+      `${formData.fullName}\n` +
+      `${formData.phone}\n` +
+      `${formData.email}\n` +
+      `${formData.address}\n` +
+      `${formData.city}, ${formData.state} - ${formData.pincode}`;
+
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+    setOrderUrl(url);
+    window.open(url, '_blank', 'noopener,noreferrer');
     clearCart();
-    setStep('success');
+    setStep('sent');
   };
 
-  if (items.length === 0 && step !== 'success') {
+  if (items.length === 0 && step !== 'sent') {
     return (
       <main className="pt-[112px] lg:pt-[164px] min-h-screen bg-[#FFFBF7] flex items-center justify-center">
         <div className="text-center">
@@ -77,18 +103,18 @@ export default function Checkout() {
           {[
             { label: 'Cart', key: 'cart' },
             { label: 'Shipping', key: 'info' },
-            { label: 'Payment', key: 'payment' },
-            { label: 'Confirmation', key: 'success' },
+            { label: 'Confirm', key: 'confirm' },
+            { label: 'Sent', key: 'sent' },
           ].map((s, i) => (
             <div key={s.key} className="flex items-center gap-2">
               <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold ${
-                s.key === step || (s.key === 'cart' && step === 'info') || (s.key === 'cart' && step === 'payment')
+                s.key === step || (s.key === 'cart' && step === 'info') || (s.key === 'cart' && step === 'confirm')
                   ? 'bg-[#F26522] text-white'
-                  : s.key === 'success' && step === 'success'
+                  : s.key === 'sent' && step === 'sent'
                   ? 'bg-green-500 text-white'
                   : 'bg-[#E8E4E0] text-[#9A9AAA]'
               }`}>
-                {s.key === 'success' && step === 'success' ? <CheckCircle2 size={14} /> : i + 1}
+                {s.key === 'sent' && step === 'sent' ? <CheckCircle2 size={14} /> : i + 1}
               </div>
               <span className={`text-xs font-medium ${
                 s.key === step ? 'text-[#F26522]' : 'text-[#9A9AAA]'
@@ -98,8 +124,8 @@ export default function Checkout() {
           ))}
         </div>
 
-        {/* Success State */}
-        {step === 'success' && (
+        {/* Sent State */}
+        {step === 'sent' && (
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -111,21 +137,35 @@ export default function Checkout() {
               transition={{ type: 'spring', stiffness: 200, damping: 15 }}
               className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-5"
             >
-              <CheckCircle2 size={40} className="text-green-600" />
+              <WhatsAppIcon className="w-10 h-10 text-green-600" />
             </motion.div>
             <h2 className="text-2xl font-bold text-[#1A1A2E] mb-2" style={{ fontFamily: 'Poppins, sans-serif' }}>
-              Order Placed Successfully!
+              Your Order Is Ready to Send
             </h2>
-            <p className="text-[#5A5A6E] mb-1">Thank you for your order.</p>
-            <p className="text-sm text-[#9A9AAA] mb-6">Order #BR{Date.now().toString().slice(-6)}</p>
-            <Link to="/shop" className="inline-flex items-center gap-2 bg-[#F26522] text-white px-6 py-3 rounded-xl font-medium hover:bg-[#E55512] transition-colors">
-              Continue Shopping
-            </Link>
+            <p className="text-[#5A5A6E] mb-1">
+              WhatsApp should have opened with your order details filled in.
+            </p>
+            <p className="text-sm text-[#9A9AAA] mb-6">
+              Please hit send in WhatsApp to reach us — your order isn&apos;t placed
+              until you do. We usually reply within a few hours.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <button
+                onClick={() => window.open(orderUrl, '_blank', 'noopener,noreferrer')}
+                className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#128C7E] text-white px-6 py-3 rounded-xl font-medium transition-colors"
+              >
+                <WhatsAppIcon className="w-[18px] h-[18px]" />
+                Open WhatsApp Again
+              </button>
+              <Link to="/shop" className="inline-flex items-center justify-center gap-2 border border-[#E8E4E0] text-[#5A5A6E] px-6 py-3 rounded-xl font-medium hover:bg-[#FFFBF7] transition-colors">
+                Continue Shopping
+              </Link>
+            </div>
           </motion.div>
         )}
 
         {/* Checkout Form */}
-        {(step === 'info' || step === 'payment') && (
+        {(step === 'info' || step === 'confirm') && (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Left - Form */}
             <div className="lg:col-span-2 space-y-6">
@@ -227,54 +267,46 @@ export default function Checkout() {
                     <motion.button
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.98 }}
-                      onClick={() => { if (validateInfo()) setStep('payment'); }}
+                      onClick={() => { if (validateInfo()) setStep('confirm'); }}
                       className="w-full mt-6 h-12 bg-gradient-to-r from-[#F26522] to-[#FF8A50] text-white rounded-xl font-semibold hover:shadow-lg transition-shadow"
                     >
-                      Continue to Payment
+                      Continue to Confirm
                     </motion.button>
                   </motion.div>
                 )}
 
-                {step === 'payment' && (
+                {step === 'confirm' && (
                   <motion.div
-                    key="payment"
+                    key="confirm"
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: -20 }}
                     className="bg-white rounded-2xl p-6 shadow-[0_2px_12px_rgba(26,26,46,0.06)] border border-[#E8E4E0]/50"
                   >
                     <h3 className="font-semibold text-[#1A1A2E] mb-4 flex items-center gap-2" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                      <CreditCard size={18} className="text-[#F26522]" />
-                      Payment Method
+                      <WhatsAppIcon className="w-[18px] h-[18px] text-[#25D366]" />
+                      Confirm Your Order on WhatsApp
                     </h3>
 
-                    <div className="space-y-3">
+                    <p className="text-sm text-[#5A5A6E] leading-relaxed">
+                      Tap the button below and your order details will open in a
+                      ready-to-send WhatsApp message. We&apos;ll confirm availability,
+                      share payment options and give you a delivery estimate right
+                      there in the chat.
+                    </p>
+
+                    <ul className="mt-4 space-y-2.5">
                       {[
-                        { id: 'upi', label: 'UPI / Google Pay / PhonePe', icon: 'UPI' },
-                        { id: 'card', label: 'Credit / Debit Card', icon: 'CARD' },
-                        { id: 'netbanking', label: 'Net Banking', icon: 'NB' },
-                        { id: 'cod', label: 'Cash on Delivery', icon: 'COD' },
-                      ].map((method) => (
-                        <label
-                          key={method.id}
-                          className={`flex items-center gap-4 p-4 rounded-xl border-2 cursor-pointer transition-all ${
-                            paymentMethod === method.id ? 'border-[#F26522] bg-[#FFF0E8]' : 'border-[#E8E4E0] hover:border-[#F26522]/30'
-                          }`}
-                        >
-                          <input
-                            type="radio"
-                            name="payment"
-                            value={method.id}
-                            checked={paymentMethod === method.id}
-                            onChange={(e) => setPaymentMethod(e.target.value)}
-                            className="w-4 h-4 text-[#F26522] accent-[#F26522]"
-                          />
-                          <div>
-                            <p className="font-medium text-[#1A1A2E] text-sm">{method.label}</p>
-                          </div>
-                        </label>
+                        'Nothing is charged on this website',
+                        'Pay by UPI or Cash on Delivery once we confirm',
+                        'You get a real person, not an automated reply',
+                      ].map((point) => (
+                        <li key={point} className="flex items-start gap-2.5 text-sm text-[#5A5A6E]">
+                          <CheckCircle2 size={16} className="text-[#25D366] shrink-0 mt-0.5" />
+                          {point}
+                        </li>
                       ))}
-                    </div>
+                    </ul>
 
                     <div className="flex gap-3 mt-6">
                       <button
@@ -286,11 +318,11 @@ export default function Checkout() {
                       <motion.button
                         whileHover={{ scale: 1.01 }}
                         whileTap={{ scale: 0.98 }}
-                        onClick={handlePlaceOrder}
-                        className="flex-1 h-12 bg-gradient-to-r from-[#F26522] to-[#FF8A50] text-white rounded-xl font-semibold hover:shadow-lg transition-shadow flex items-center justify-center gap-2"
+                        onClick={handleSendOrder}
+                        className="flex-1 h-12 bg-[#25D366] hover:bg-[#128C7E] text-white rounded-xl font-semibold shadow-[0_4px_12px_rgba(37,211,102,0.3)] transition-colors flex items-center justify-center gap-2"
                       >
-                        <Lock size={16} />
-                        Place Order
+                        <WhatsAppIcon className="w-[18px] h-[18px]" />
+                        Send Order on WhatsApp
                       </motion.button>
                     </div>
                   </motion.div>
