@@ -327,9 +327,13 @@ export default function Header() {
                             <span className="text-sm text-[#5A5A6E]">Total</span>
                             <span className="text-lg font-bold text-[#F26522]">&#8377;{totalPrice}</span>
                           </div>
-                          <button className="w-full py-3 bg-[#F26522] hover:bg-[#E55512] text-white rounded-xl font-semibold text-sm transition-colors">
+                          <Link
+                            to="/checkout"
+                            onClick={() => setCartOpen(false)}
+                            className="flex items-center justify-center w-full py-3 bg-[#F26522] hover:bg-[#E55512] text-white rounded-xl font-semibold text-sm transition-colors"
+                          >
                             Checkout
-                          </button>
+                          </Link>
                         </div>
                       </>
                     ) : (
