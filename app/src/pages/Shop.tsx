@@ -8,6 +8,7 @@ import {
 import ProductCard from '@/components/ProductCard';
 import PageHero from '@/components/PageHero';
 import { products, categories } from '@/data/products';
+import SEO from '@/components/SEO';
 
 const priceRanges = [
   { label: 'All Prices', min: 0, max: Infinity },
@@ -110,6 +111,12 @@ export default function Shop() {
 
   return (
     <main className="min-h-screen bg-[#FFFBF7]">
+      <SEO
+        title="Shop Science Notes, Formula Sheets & Mugs"
+        description="Browse science study material by Brar Scribbles — Physics, Chemistry and Biology formula sheets, synopsis notes, mugs and STEM gifts. Free delivery over ₹499."
+        keywords="buy science notes online, formula sheet pdf, cbse study material, jee notes, science mugs india"
+        canonical="/shop"
+      />
       {/* Hero */}
       <PageHero
         title="Our Shop"

@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState, useCallback } from 'react';
+import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
+import { readStored, writeStored, clearStored } from '@/lib/storage';
 import type { Product } from '@/data/products';
 
 export interface CartItem {
@@ -19,10 +20,15 @@ interface CartContextType {
 const CartContext = createContext<CartContextType | undefined>(undefined);
 
 export function CartProvider({ children }: { children: React.ReactNode }) {
-  const [items, setItems] = useState<CartItem[]>(() => {
-    const stored = localStorage.getItem('brar_cart');
-    return stored ? JSON.parse(stored) : [];
-  });
+  // Starts empty so prerendered markup and the first client render agree;
+  // the real cart loads from storage right after mount.
+  const [items, setItems] = useState<CartItem[]>([]);
+
+  useEffect(() => {
+    // Intentional post-mount setState — see AuthContext for the reasoning.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setItems(readStored<CartItem[]>('brar_cart', []));
+  }, []);
 
   const addToCart = useCallback((product: Product) => {
     setItems((prev) => {
@@ -37,7 +43,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       } else {
         newItems = [...prev, { product, quantity: 1 }];
       }
-      localStorage.setItem('brar_cart', JSON.stringify(newItems));
+      writeStored('brar_cart', newItems);
       return newItems;
     });
   }, []);
@@ -45,7 +51,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const removeFromCart = useCallback((productId: number) => {
     setItems((prev) => {
       const newItems = prev.filter((item) => item.product.id !== productId);
-      localStorage.setItem('brar_cart', JSON.stringify(newItems));
+      writeStored('brar_cart', newItems);
       return newItems;
     });
   }, []);
@@ -59,14 +65,14 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       const newItems = prev.map((item) =>
         item.product.id === productId ? { ...item, quantity } : item
       );
-      localStorage.setItem('brar_cart', JSON.stringify(newItems));
+      writeStored('brar_cart', newItems);
       return newItems;
     });
   }, [removeFromCart]);
 
   const clearCart = useCallback(() => {
     setItems([]);
-    localStorage.removeItem('brar_cart');
+    clearStored('brar_cart');
   }, []);
 
   const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);

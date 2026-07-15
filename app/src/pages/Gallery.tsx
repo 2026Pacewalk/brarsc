@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Instagram, X, ChevronLeft, ChevronRight, Grid3X3, Images, ExternalLink } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import { galleryImages } from '@/data/products';
+import SEO from '@/components/SEO';
 
 export default function Gallery() {
   const [lightbox, setLightbox] = useState<number | null>(null);
@@ -21,6 +22,12 @@ export default function Gallery() {
 
   return (
     <main className="min-h-screen bg-[#FFFBF7]" onKeyDown={handleKeyDown}>
+      <SEO
+        title="Gallery — Hand-Drawn Science Artwork"
+        description="See the hand-drawn science artwork behind Brar Scribbles' formula sheets and notes — Physics, Chemistry and Biology illustrations by JP Brar."
+        keywords="science artwork, hand drawn science notes, science illustration india"
+        canonical="/gallery"
+      />
       {/* Hero */}
       <PageHero
         title="Our Gallery"

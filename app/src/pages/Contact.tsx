@@ -7,6 +7,7 @@ import {
   AlignLeft, ArrowRight, HeadphonesIcon, MessageSquare
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import SEO from '@/components/SEO';
 
 /* ─── FAQ Data ─── */
 const faqs = [
@@ -167,6 +168,12 @@ export default function Contact() {
 
   return (
     <main>
+      <SEO
+        title="Contact Us — Bulk Orders & Support"
+        description="Questions about an order, bulk discounts for schools, or custom science notes? WhatsApp +91-84279-76607 or message Brar Scribbles here — we reply the same day."
+        keywords="contact brar scribbles, bulk science notes schools, whatsapp science notes"
+        canonical="/contact"
+      />
       {/* ═══════════ HERO SECTION ═══════════ */}
       <section className="relative bg-gradient-to-br from-[#1A1A2E] via-[#1e1e3a] to-[#F26522]/20 overflow-hidden">
         {/* CSS-only floating dots */}

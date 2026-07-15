@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState, useCallback } from 'react';
+import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
+import { readStored, writeStored, clearStored } from '@/lib/storage';
 
 export interface User {
   id: string;
@@ -18,10 +19,15 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
-  const [user, setUser] = useState<User | null>(() => {
-    const stored = localStorage.getItem('brar_user');
-    return stored ? JSON.parse(stored) : null;
-  });
+  const [user, setUser] = useState<User | null>(null);
+
+  useEffect(() => {
+    // Intentional post-mount setState: the prerendered HTML is shared by every
+    // visitor, so per-user state must not exist until after hydration or the
+    // markup would not match. The one extra render is the cost of that.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setUser(readStored<User | null>('brar_user', null));
+  }, []);
 
   const login = useCallback(async (email: string, password: string, role: 'student' | 'superadmin', adminCode?: string): Promise<boolean> => {
     await new Promise((resolve) => setTimeout(resolve, 800));
@@ -37,7 +43,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         role: 'superadmin',
       };
       setUser(superAdmin);
-      localStorage.setItem('brar_user', JSON.stringify(superAdmin));
+      writeStored('brar_user', superAdmin);
       return true;
     }
 
@@ -49,7 +55,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         role: 'student',
       };
       setUser(student);
-      localStorage.setItem('brar_user', JSON.stringify(student));
+      writeStored('brar_user', student);
       return true;
     }
     return false;
@@ -65,7 +71,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         role: 'student',
       };
       setUser(student);
-      localStorage.setItem('brar_user', JSON.stringify(student));
+      writeStored('brar_user', student);
       return true;
     }
     return false;
@@ -73,7 +79,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const logout = useCallback(() => {
     setUser(null);
-    localStorage.removeItem('brar_user');
+    clearStored('brar_user');
   }, []);
 
   return (

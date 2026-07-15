@@ -8,6 +8,12 @@ export interface Review {
 
 export interface Product {
   id: number;
+  /**
+   * URL slug. These are carried over verbatim from the previous WooCommerce
+   * site so the already-indexed URLs keep their ranking signal — changing them
+   * would trade that away for a marginally tidier string.
+   */
+  slug: string;
   name: string;
   price: number;
   oldPrice: number;
@@ -27,6 +33,7 @@ export interface Product {
 export const products: Product[] = [
   {
     id: 1,
+    slug: "projectile-motion-formulae-sheets-class-11th-advance-level",
     name: "PROJECTILE MOTION: Formulae Sheets (Class 11th) - Advance level",
     price: 50,
     oldPrice: 100,
@@ -44,6 +51,7 @@ export const products: Product[] = [
   },
   {
     id: 2,
+    slug: "chemical-reactions-equations-synopsis-class-10th",
     name: "Chemical Reactions & Equations: SYNOPSIS (Class 10th)",
     price: 30,
     oldPrice: 50,
@@ -66,6 +74,7 @@ export const products: Product[] = [
   },
   {
     id: 3,
+    slug: "motion",
     name: "Motion: Formulae Sheet (Class 9th)",
     price: 20,
     oldPrice: 40,
@@ -83,6 +92,7 @@ export const products: Product[] = [
   },
   {
     id: 4,
+    slug: "electric-charges-fields-formulae-sheet-class-12th",
     name: "Electric Charges & Fields: Formulae Sheets (Class 12th)",
     price: 25,
     oldPrice: 50,
@@ -100,6 +110,7 @@ export const products: Product[] = [
   },
   {
     id: 5,
+    slug: "handbook-of-physics-formulaesale",
     name: "Handbook of PHYSICS Formulae & Tips for Class 12th Board Exam Preparation",
     price: 100,
     oldPrice: 200,
@@ -117,6 +128,7 @@ export const products: Product[] = [
   },
   {
     id: 6,
+    slug: "electricity-formula-sheet",
     name: "Current Electricity: Formula Sheet (Class 10)",
     price: 20,
     oldPrice: 40,
@@ -134,6 +146,7 @@ export const products: Product[] = [
   },
   {
     id: 7,
+    slug: "trends-modern-periodic-table",
     name: "Trends: Modern Periodic Table",
     price: 20,
     oldPrice: 30,
@@ -151,6 +164,7 @@ export const products: Product[] = [
   },
   {
     id: 8,
+    slug: "coffee-mug-ionic-bonding-a-love-story",
     name: "Coffee Mug (Ionic Bonding: A Love Story)",
     price: 299,
     oldPrice: 400,
@@ -170,6 +184,10 @@ export const products: Product[] = [
 
 export function getProductById(id: number): Product | undefined {
   return products.find((p) => p.id === id);
+}
+
+export function getProductBySlug(slug: string): Product | undefined {
+  return products.find((p) => p.slug === slug);
 }
 
 export function getRelatedProducts(product: Product): Product[] {

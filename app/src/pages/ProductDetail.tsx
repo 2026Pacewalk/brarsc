@@ -6,10 +6,12 @@ import {
   Truck, ShieldCheck, RotateCcw, Facebook, Twitter,
   ChevronRight, Tag, AlertCircle
 } from 'lucide-react';
-import { getProductById, getRelatedProducts } from '@/data/products';
+import { getProductBySlug, getRelatedProducts } from '@/data/products';
 import { useCart } from '@/context/CartContext';
 import { useWishlist } from '@/context/WishlistContext';
 import ProductCard from '@/components/ProductCard';
+import SEO from '@/components/SEO';
+import { SITE_ORIGIN } from '@/lib/site';
 
 function StarRating({ rating, size = 16 }: { rating: number; size?: number }) {
   return (
@@ -26,9 +28,8 @@ function StarRating({ rating, size = 16 }: { rating: number; size?: number }) {
 }
 
 export default function ProductDetail() {
-  const { id } = useParams<{ id: string }>();
-  const productId = Number(id);
-  const product = getProductById(productId);
+  const { slug } = useParams<{ slug: string }>();
+  const product = getProductBySlug(slug ?? '');
   const { addToCart } = useCart();
   const { isInWishlist, toggleWishlist } = useWishlist();
   const [quantity, setQuantity] = useState(1);
@@ -62,14 +63,66 @@ export default function ProductDetail() {
 
   const productImages = [product.image, product.image, product.image];
 
+  // Share the canonical product URL rather than window.location.href: it is
+  // stable, free of tracking params, and readable during prerender (there is
+  // no window in Node).
+  const shareUrl = `${SITE_ORIGIN}/product/${product.slug}`;
+
   const shareUrls = {
-    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`,
-    twitter: `https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(product.name)}`,
-    pinterest: `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(window.location.href)}&media=${encodeURIComponent(product.image)}&description=${encodeURIComponent(product.name)}`,
+    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`,
+    twitter: `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(product.name)}`,
+    pinterest: `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(shareUrl)}&media=${encodeURIComponent(SITE_ORIGIN + product.image)}&description=${encodeURIComponent(product.name)}`,
   };
+
+  const productSchema: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    image: `${SITE_ORIGIN}${product.image}`,
+    description: product.shortDesc,
+    sku: `BRAR-${product.id}`,
+    category: product.category,
+    brand: { '@type': 'Brand', name: 'Brar Scribbles' },
+    offers: {
+      '@type': 'Offer',
+      url: shareUrl,
+      priceCurrency: 'INR',
+      price: product.price,
+      availability: product.inStock
+        ? 'https://schema.org/InStock'
+        : 'https://schema.org/OutOfStock',
+      seller: { '@type': 'Organization', name: 'Brar Scribbles' },
+    },
+  };
+
+  // Only claim ratings where real reviews exist — fabricated aggregateRating is
+  // a manual-action risk and most products here have none yet.
+  if (product.reviews > 0 && product.rating > 0) {
+    productSchema.aggregateRating = {
+      '@type': 'AggregateRating',
+      ratingValue: product.rating,
+      reviewCount: product.reviews,
+    };
+    productSchema.review = product.reviewList.map((r) => ({
+      '@type': 'Review',
+      author: { '@type': 'Person', name: r.name },
+      datePublished: r.date,
+      reviewRating: { '@type': 'Rating', ratingValue: r.rating },
+      reviewBody: r.comment,
+    }));
+  }
 
   return (
     <main className="pt-[112px] lg:pt-[164px] bg-[#FFFBF7]">
+      <SEO
+        title={product.name}
+        description={product.shortDesc}
+        keywords={product.tags.join(', ')}
+        canonical={`/product/${product.slug}`}
+        ogImage={`${SITE_ORIGIN}${product.image}`}
+        ogType="product"
+        schema={productSchema}
+      />
       {/* Breadcrumb */}
       <div className="bg-white border-b border-[#E8E4E0]">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 py-3">

@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState, useCallback } from 'react';
+import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
+import { readStored, writeStored } from '@/lib/storage';
 import type { Product } from '@/data/products';
 
 interface WishlistContextType {
@@ -13,17 +14,20 @@ interface WishlistContextType {
 const WishlistContext = createContext<WishlistContextType | undefined>(undefined);
 
 export function WishlistProvider({ children }: { children: React.ReactNode }) {
-  const [items, setItems] = useState<Product[]>(() => {
-    const stored = localStorage.getItem('brar_wishlist');
-    return stored ? JSON.parse(stored) : [];
-  });
+  const [items, setItems] = useState<Product[]>([]);
+
+  useEffect(() => {
+    // Intentional post-mount setState — see AuthContext for the reasoning.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setItems(readStored<Product[]>('brar_wishlist', []));
+  }, []);
 
   const addToWishlist = useCallback((product: Product) => {
     setItems((prev) => {
       const exists = prev.find((p) => p.id === product.id);
       if (exists) return prev;
       const newItems = [...prev, product];
-      localStorage.setItem('brar_wishlist', JSON.stringify(newItems));
+      writeStored('brar_wishlist', newItems);
       return newItems;
     });
   }, []);
@@ -31,7 +35,7 @@ export function WishlistProvider({ children }: { children: React.ReactNode }) {
   const removeFromWishlist = useCallback((productId: number) => {
     setItems((prev) => {
       const newItems = prev.filter((p) => p.id !== productId);
-      localStorage.setItem('brar_wishlist', JSON.stringify(newItems));
+      writeStored('brar_wishlist', newItems);
       return newItems;
     });
   }, []);

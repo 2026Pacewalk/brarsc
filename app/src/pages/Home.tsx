@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import ProductCard from '@/components/ProductCard';
 import { products, topCategories, productCategories } from '@/data/products';
+import SEO from '@/components/SEO';
 
 /* ───────── Hero ───────── */
 function HeroSection() {
@@ -442,6 +443,12 @@ function FooterPromo() {
 export default function Home() {
   return (
     <main>
+      <SEO
+        title="Science Study Material & Formula Sheets"
+        description="Colourful CBSE formula sheets, synopsis notes and science-inspired mugs by JP Brar. Physics, Chemistry and Biology study material from ₹30."
+        keywords="science study material, cbse formula sheets, physics notes, chemistry notes, class 10 notes, class 12 notes, science mugs, jp brar"
+        canonical="/"
+      />
       <div>
         <HeroSection />
         <FeaturesBar />

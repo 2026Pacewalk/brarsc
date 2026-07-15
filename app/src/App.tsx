@@ -6,7 +6,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import ScrollToTop from '@/components/ScrollToTop';
-import SEO from '@/components/SEO';
 import Home from '@/pages/Home';
 import Shop from '@/pages/Shop';
 import ProductDetail from '@/pages/ProductDetail';
@@ -29,16 +28,14 @@ function AppContent() {
   return (
     <div className="min-h-screen bg-[#FFFBF7]">
       <ScrollToTop />
-      <SEO
-        title="Brar Scribbles - Science Made Fun & Creative"
-        description="Brar Scribbles is an online store that celebrates science with creative study materials, formula sheets, science-inspired merchandise, mugs, apparel, and educational YouTube content. Teacher by Profession & Artist by Passion."
-        keywords="Brar Scribbles, science study materials, formula sheets, physics notes, chemistry notes, biology notes, science mugs, science merchandise, educational resources, JP Brar, STEM education, science gifts"
-      />
+      {/* Metadata lives on each page so every URL gets its own title,
+          description, canonical and schema. A shared tag here would emit a
+          second <title> on every route. */}
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
-        <Route path="/product/:id" element={<ProductDetail />} />
+        <Route path="/product/:slug" element={<ProductDetail />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />

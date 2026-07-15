@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Calendar, User, ArrowRight, Clock, Search, BookOpen, Mail } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import { blogPosts } from '@/data/products';
+import SEO from '@/components/SEO';
 
 const categories = ['All', 'Education', 'Science', 'Art', 'Teaching', 'Study Tips'];
 
@@ -23,6 +24,12 @@ export default function Blog() {
 
   return (
     <main className="min-h-screen bg-[#FFFBF7]">
+      <SEO
+        title="Science Study Tips & Exam Notes"
+        description="Study tips, exam strategy and science explainers from Brar Scribbles — practical advice for CBSE Class 9 to 12 Physics, Chemistry and Biology students."
+        keywords="science study tips, cbse exam preparation, physics revision, chemistry notes blog"
+        canonical="/blog"
+      />
       {/* Hero */}
       <PageHero
         title="Our Blog"

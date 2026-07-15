@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { BookOpen, ShoppingBag, PlayCircle, Heart, Target, Lightbulb, Users, ArrowRight, Quote } from 'lucide-react';
 import PageHero from '@/components/PageHero';
+import SEO from '@/components/SEO';
 
 const features = [
   {
@@ -38,6 +39,12 @@ const milestones = [
 export default function About() {
   return (
     <main className="min-h-screen">
+      <SEO
+        title="About JP Brar — Teacher & Artist"
+        description="Meet JP Brar, the teacher and artist behind Brar Scribbles. Hand-drawn science notes and formula sheets that make CBSE Physics and Chemistry click."
+        keywords="jp brar, brar scribbles about, science teacher artist, whitehawk academy"
+        canonical="/about"
+      />
       {/* Hero */}
       <PageHero
         title="About Us"

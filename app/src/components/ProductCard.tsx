@@ -25,7 +25,7 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
     >
       {/* Image */}
       <div className="relative aspect-square overflow-hidden bg-[#FFFBF7]">
-        <Link to={`/product/${product.id}`}>
+        <Link to={`/product/${product.slug}`}>
           <img
             src={product.image}
             alt={product.name}
@@ -51,7 +51,7 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
         {/* Quick Actions */}
         <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <Link
-            to={`/product/${product.id}`}
+            to={`/product/${product.slug}`}
             className="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-[#F26522] hover:text-white transition-colors text-[#1A1A2E]"
           >
             <Eye size={15} />
@@ -71,7 +71,7 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
 
       {/* Content */}
       <div className="p-4">
-        <Link to={`/product/${product.id}`}>
+        <Link to={`/product/${product.slug}`}>
           <h3 className="font-medium text-sm text-[#1A1A2E] line-clamp-2 min-h-[40px] hover:text-[#F26522] transition-colors" style={{ fontFamily: 'Poppins, sans-serif' }}>
             {product.name}
           </h3>
