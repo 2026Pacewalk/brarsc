@@ -30,3 +30,6 @@ Thumbs.db
 
 # Deploy artifacts
 deploy/*.tar.gz
+
+# Claude Code local (machine-specific permissions)
+.claude/settings.local.json
